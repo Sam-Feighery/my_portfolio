@@ -28,8 +28,8 @@ const Footer = () => {
       }
 
       client.create(contact).then(() => {
-        setLoading(false);
         setIsFormSubmitted(true);
+        setLoading(false);
       })
       .catch((err) => console.log(err));
     };
@@ -42,12 +42,12 @@ const Footer = () => {
       <div className="app__footer-cards">
         <div className="app__footer-card">
           <img src={images.email} alt="email" />
-          <a href="mailto:hello@samfeighery.com" className="p-text">hello@samfeighery.com</a>
+          <a href="mailto:sfeighery@gmail.com" className="p-text">sfeighery@gmail.com</a>
         </div>
 
         <div className="app__footer-card">
         <img src={images.mobile} alt="mobile" />
-        <a href="tel: +1 (123) 456-789" className="p-text">+1 (123) 456-789</a>
+        <a href="tel: +44 7557 532-578" className="p-text">+44 7557 532-578</a>
         </div>
       </div>  
 
