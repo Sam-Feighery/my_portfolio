@@ -1,18 +1,18 @@
 import React from 'react';
-import { BsGithub, BsInstagram } from 'react-icons/bs';
-import { FaFacebookF } from 'react-icons/fa';
+import { BsGithub, BsLinkedin } from 'react-icons/bs';
+import { FaCodepen } from 'react-icons/fa';
 
 const SocialMedia = () => {
   return (
     <div className="app__social">
         <div>
-            <BsGithub />
+            <a href='https://www.linkedin.com/in/sam-feighery-b5265126/' target="_blank" rel="noreferrer"><BsLinkedin /></a>
         </div>
         <div>
-        <FaFacebookF />
+            <a href='https://github.com/Sam-Feighery' target="_blank" rel="noreferrer"><BsGithub /></a>
         </div>
         <div>
-            <BsInstagram />
+            <a href='https://codepen.io/geoneo123/pens/showcase' target="_blank" rel="noreferrer"><FaCodepen  /></a>
         </div>
     </div>
   )

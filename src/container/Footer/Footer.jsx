@@ -62,7 +62,7 @@ const Footer = () => {
         <div>
           <textarea className="p-text" placeholder="Your Message" value={message} name="message" onChange={handleChangeInput} />
         </div>
-        <button type="button" className="p-text" onClick={handleSubmit}>{loading ? 'Send Message' : 'Sending...'}</button>
+        <button type="button" className="p-text" onClick={handleSubmit}>{loading ? 'Sending...' : 'Send Message'}</button>
       </div> 
    ) : (
         <div>

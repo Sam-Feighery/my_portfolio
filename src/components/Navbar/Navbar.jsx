@@ -10,7 +10,7 @@ const Navbar = () => {
 
   return (
     <nav className="app__navbar">
-      <div className="app_navbar_logo">
+      <div className="app__navbar_logo">
         <img src={images.logo} alt="logo" />
       </div>
       <ul className="app__navbar-links">
@@ -34,7 +34,7 @@ const Navbar = () => {
               <ul>
               {['home', 'about', 'work', 'skills', 'contact'].map((item) => (
                 <li key={item}>
-                  <a href={`#${item}`} onClick={() => setToggle(false)} >{item}</a>
+                  <a href={`#${item}`} onClick={() => setToggle(false)}>{item}</a>
                 </li>
               ))}
               </ul>
